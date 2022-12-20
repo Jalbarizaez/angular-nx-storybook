@@ -19,3 +19,23 @@ Run `npx nx connect-to-nx-cloud` to enable [remote caching](https://nx.app) and 
 ## Further help
 
 Visit the [Nx Documentation](https://nx.dev) to learn more.
+
+
+# StoryBook Configuration 
+
+
+## Generate header lib 
+npx ng generate lib header
+
+## Generate component in project header
+npx ng generate component header --project=header
+
+## Install StoryBook
+npm i -D @nrwl/storybook
+
+## Create storybook component header 
+npx ng generate storybook-configuration header
+
+## Ng run Storybook
+ng run header:storybook
+
