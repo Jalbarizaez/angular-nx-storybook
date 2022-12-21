@@ -12,6 +12,56 @@
     line-height: 1.4;
     margin-bottom: 0px;
 }
-// .custom-maxi-blue-accent-two{
-//     background-color: #043f8f;
-// }
+.custom-maxi-blue-accent-two{
+    background-color: #043f8f;
+}
+
+
+// Theme Color Variables
+// https://getbootstrap.com/docs/5.2/customize/color/
+// https://getbootstrap.com/docs/5.2/customize/sass/
+
+
+// -- Custom Colors
+// Main Colors
+$maxi-blue:          #0252BF;
+$maxi-blue-accent: #3577D2;
+$maxi-blue-accent-two: #043f8f;
+$maxi-blue-accent-three: #006CFF;
+$maxi-green:         #458C44;
+$maxi-green-accent:  #AAD156;
+
+//GrayScale
+$maxi-gray-100: #131313;
+$maxi-gray-80:  #2c2b2c;
+$maxi-gray-60:  #777777;
+$maxi-gray-40:  #E0E1E0;
+$maxi-gray-20:  #F5F5F5;
+$maxi-white:    #ffffff;
+
+//Status Colors
+$maxi-success:  #AAD156;
+$maxi-warning:  #E19829;
+$maxi-danger:   #C81010;
+$maxi-danger-2: #911E1E;
+
+
+//Bootstrap default colors
+//$primary:       $maxi-blue-accent-three;
+//$secondary:     $gray-600 !default;
+//$success:       $green !default;
+//$info:          $cyan !default;
+//$warning:       $yellow !default;
+//$danger:        $red !default;
+//$light:         #fbf5e5;
+//$dark:          $gray-900 !default;
+
+
+$custom_colors:(
+    "maxi-blue": $maxi-blue,
+    "maxi-blue-accent": $maxi-blue-accent,
+    "maxi-blue-accent-two": $maxi-blue-accent-two,
+    "maxi-blue-accent-three": $maxi-blue-accent-three,
+    "maxi-green": $maxi-green,
+    "maxi-green-accent": $maxi-green-accent
+);
