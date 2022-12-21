@@ -13,6 +13,7 @@
         "passWithNoTests": true
       }
     },
+    
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
@@ -41,7 +42,8 @@
         "outputDir": "dist/storybook/header",
         "configDir": "libs/header/.storybook",
         "browserTarget": "header:build-storybook",
-        "compodoc": false
+        "compodoc": false,
+        "styles": ["node_modules/bootstrap/dist/css/bootstrap.min.css"]
       },
       "configurations": {
         "ci": {

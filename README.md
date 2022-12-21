@@ -39,3 +39,5 @@ npx ng generate storybook-configuration header
 ## Ng run Storybook
 ng run header:storybook
 
+## Fixing Boostrap in Story Book
+https://github.com/nrwl/nx/issues/8681
